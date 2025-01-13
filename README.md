@@ -55,7 +55,7 @@ For problem sets B, C, and D, the agent uses the pixel-ratio methods, while for 
 The reason for this is that in problem set E, many of the RPM problems display symmetry in terms of shapes, with most of the difference between images in the grids being positional or due to rotations.
 These patterns and relationships between images are able to be easily captured by bitwise relationships between images due to the symmetry of shapes between the images.
 
-**Performance and Future Considerations:**
+**Performance and Future Applications:**
 
 The problems that the agent has been tested on are divided into arrangments (2x2 and 3x3), problem sets (B, C, D, E), and categories (basic, test, challenge, and Raven's).
 The problems in set B are all 2x2, while the ones in sets C, D, and E are 3x3.
