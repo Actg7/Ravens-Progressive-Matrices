@@ -27,7 +27,7 @@ Thus, a person would likely select answer choice 5 as the best answer to the pro
 On a high level, this is a similar method to how the agent solves 2x2 problems (for example, in problem set B).
 We can see that people rely on visuospatial reasoning and abstract understanding of the relationships encoded by the recognizable patterns and differences/similarities between images along a row or column.
 Meanwhile, the agent analyzes relationships between images on the scale of individual pixels and makes use of algorithms to estimate and calculate the best approximation based on these relationships and symmetries of pixels between images in the problem grid.
-In other words, the agent uses AI reasoning to solve problems with human-like intelligence adn capability in a fraction of the time.
+In other words, the agent uses AI reasoning to solve problems with human-like intelligence and capability in a fraction of the time.
 Let's dive into how the agent uses knowledge-based AI techniques to solve RPM problems!
 
 **How the agent solves RPM problems:**
@@ -62,10 +62,12 @@ The problems that the agent has been tested on are divided into arrangments (2x2
 The problems in set B are all 2x2, while the ones in sets C, D, and E are 3x3.
 The agent correctly solves 73% (35/48) of the basic problems, 63% (30/48) of the test problems, 29% (14/48) of the challenge problems, and 63% (30/48) of the Raven's problems.
 In total, the agent correctly solves 109 RPM problems in 2.781 seconds.
-For comparison, a person would take much longer to achieve that same score, because humans need time to analyze the image and must rely on visuospatial reasoning.
+For comparison, if it takes around 10 seconds for a person to correctly solve one RPM problem, it would take them almost 10 minutes to achieve the same results!
+This is because humans need considerably more time to analyze the image and apply visuospatial reasoning to pick the right answer.
 The agent can perform much more quickly and efficiently by applying comparison methods to evaluate pixel similarity numerically and then computing the most similar answer choice.
 The approach that the agent uses to solve RPM problems is generalizable to a problem-solving strategy in knowledge-based artificial intelligence known as means-ends-analysis (MEA).
 MEA is a problem-solving strategy that involves breaking a goal state into smaller subgoals and completing the subgoals to bring the current state closer to the goal state.
 The agent uses MEA to solve RPM problems by breaking the goal of choosing the best answer image into subgoals: first, applying comparison methods between adjacent images in the grid; next, applying the comparison methods between the answer choices and nearby matrices; after this, computing the similarity values between both comparisons; finally, selecting the answer choice with the strongest similarity value.
 This type of approach used by the agent could be generalized to find strategies to compare broader categories of items beyond images with geometric relationships.
+In the future, agents could use MEA approaches to achieve human-like reasoning on more broad classes of problems, solving problems in a fraction of the time it would take a human.
 More detailed breakdowns of the performance overall and on a few specific problems can be found in the RPM final journal pdf file.
