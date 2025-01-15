@@ -1,4 +1,4 @@
-**An AI agent that solves Raven's Progressive Matrices (RPM) IQ problems using human-like reasoning, but in a fraction of the time.**
+**An AI agent that solves Raven's Progressive Matrices (RPM) IQ problems using human-like reasoning in a fraction of the time.**
 
 **Background:**
 
