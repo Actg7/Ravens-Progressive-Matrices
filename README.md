@@ -1,4 +1,4 @@
-**An AI agent that solves Raven's Progressive Matrices (RPM) IQ problems.**
+**An AI agent that solves Raven's Progressive Matrices (RPM) IQ problems using human-like reasoning, but in a fraction of the time.**
 
 **Background:**
 
@@ -27,6 +27,7 @@ Thus, a person would likely select answer choice 5 as the best answer to the pro
 On a high level, this is a similar method to how the agent solves 2x2 problems (for example, in problem set B).
 We can see that people rely on visuospatial reasoning and abstract understanding of the relationships encoded by the recognizable patterns and differences/similarities between images along a row or column.
 Meanwhile, the agent analyzes relationships between images on the scale of individual pixels and makes use of algorithms to estimate and calculate the best approximation based on these relationships and symmetries of pixels between images in the problem grid.
+In other words, the agent uses AI reasoning to solve problems with human-like intelligence adn capability in a fraction of the time.
 Let's dive into how the agent uses knowledge-based AI techniques to solve RPM problems!
 
 **How the agent solves RPM problems:**
