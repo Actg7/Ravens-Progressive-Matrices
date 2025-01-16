@@ -62,7 +62,7 @@ The problems that the agent has been tested on are divided into arrangments (2x2
 The problems in set B are all 2x2, while the ones in sets C, D, and E are 3x3.
 The agent correctly solves 73% (35/48) of the basic problems, 63% (30/48) of the test problems, 29% (14/48) of the challenge problems, and 63% (30/48) of the Raven's problems.
 In total, the agent correctly solves 109 RPM problems in 2.781 seconds.
-For comparison, if it takes around 10 seconds for a person to correctly solve one RPM problem, it would take them almost 10 minutes to achieve the same results!
+For comparison, if it takes around 10 seconds for a person to correctly solve one RPM problem, it would take them almost 20 minutes to achieve the same results!
 This is because humans need considerably more time to analyze the image and apply visuospatial reasoning to pick the right answer.
 The agent can perform much more quickly and efficiently by applying comparison methods to evaluate pixel similarity numerically and then computing the most similar answer choice.
 The approach that the agent uses to solve RPM problems is generalizable to a problem-solving strategy in knowledge-based artificial intelligence known as means-ends-analysis (MEA).
